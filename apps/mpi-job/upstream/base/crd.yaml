@@ -3,9 +3,6 @@ kind: CustomResourceDefinition
 metadata:
   labels:
     app: mpi-operator
-    app.kubernetes.io/component: mpijob
-    app.kubernetes.io/name: mpi-operator
-    kustomize.component: mpi-operator
   name: mpijobs.kubeflow.org
 spec:
   group: kubeflow.org
