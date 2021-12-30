@@ -11,4 +11,4 @@ commonLabels:
 images:
 - name: mpioperator/mpi-operator
   newName: mpioperator/mpi-operator
-  newTag: v0.3.0
+  newTag: 0.3.0
