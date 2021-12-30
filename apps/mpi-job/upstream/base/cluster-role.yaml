@@ -7,9 +7,6 @@ kind: ClusterRole
 metadata:
   labels:
     app: mpi-operator
-    app.kubernetes.io/component: mpijob
-    app.kubernetes.io/name: mpi-operator
-    kustomize.component: mpi-operator
     rbac.authorization.kubeflow.org/aggregate-to-kubeflow-admin: "true"
   name: kubeflow-mpijobs-admin
 rules: []
@@ -19,9 +16,6 @@ kind: ClusterRole
 metadata:
   labels:
     app: mpi-operator
-    app.kubernetes.io/component: mpijob
-    app.kubernetes.io/name: mpi-operator
-    kustomize.component: mpi-operator
     rbac.authorization.kubeflow.org/aggregate-to-kubeflow-edit: "true"
     rbac.authorization.kubeflow.org/aggregate-to-kubeflow-mpijobs-admin: "true"
   name: kubeflow-mpijobs-edit
@@ -46,9 +40,6 @@ kind: ClusterRole
 metadata:
   labels:
     app: mpi-operator
-    app.kubernetes.io/component: mpijob
-    app.kubernetes.io/name: mpi-operator
-    kustomize.component: mpi-operator
     rbac.authorization.kubeflow.org/aggregate-to-kubeflow-view: "true"
   name: kubeflow-mpijobs-view
 rules:
@@ -67,9 +58,6 @@ kind: ClusterRole
 metadata:
   labels:
     app: mpi-operator
-    app.kubernetes.io/component: mpijob
-    app.kubernetes.io/name: mpi-operator
-    kustomize.component: mpi-operator
   name: mpi-operator
 rules:
 - apiGroups:
